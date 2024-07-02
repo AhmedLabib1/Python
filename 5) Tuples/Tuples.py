@@ -38,17 +38,17 @@ print(t3)
 
 
 #----------------Start----------------
-# access tuple items through it's index
+# Accessing Elements: Accessing elements by index.
 print(t1[0])
 print(t1[1])
 print(t1[2])
+print(t3[8][0])   # Will print the element at index (0) of the subset located at index (8) within myTuple3.
 
-# access tuple items through slices.
+# Slicing: Accessing a subset of the tuple.
 print(t1[0:2])    # Will print from index (0) up to (but not included) index (2).
 print(t1[::])     # Will print all items.
 print(t2[0:5:2])  # Starting at index 0, up to (but not including) index 5, selecting every second element.
 print(t1[::-1])   # Will print all items starting from the end.
-print(t3[8][0])   # Will print the element at index (0) of the subset located at index (8) within myTuple3.
 print(t3[8][0:3]) # Will print the element start from index (0) up to (but not included) index (3) of the subset located at index (8) within myTuple3.
 #-----------------end-----------------
 

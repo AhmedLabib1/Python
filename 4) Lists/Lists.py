@@ -3,7 +3,7 @@
 # ----------
 # [1] List items are enclosed in square brackets.
 # [2] List are Ordered, to use index to access items.
-# [3] List are Mutable ==> Add, Delete, Update.
+# [3] List are Mutable ==> you can Add or Delete or Update a value.
 # [4] List items is not Unique.
 # [5] List can have different data types.
 # --------------------------------
