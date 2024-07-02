@@ -136,12 +136,12 @@ myList13 = myList11.copy()
 print(id(myList11)) # Main list
 print(id(myList13)) # Copied list
 
-# count(element) Return number of occurrences of value.
+# [10] count(element) Return number of occurrences of value.
 
 myList14 = [1, 2, 3, 1, 5, 6, 1]
 print(myList14.count(1)) # Will print (3)
 
-# index(element) Return first index of value.
+# [11] index(element) Return first index of value.
 
 myList15 = ["Ahmed", "Ali", "Ramy", "Yasser"]
 print(myList15.index("Ramy")) # Will print index (2)
