@@ -18,7 +18,7 @@ formatted_Str2 = f"Name: {F_Name}, Age: {Age}"
 print(formatted_Str2)
 
 # [2] Using (%) operator (old style formatting):
-formatted_Str1 = "Name: %.5s, Age: %03d" % (F_Name, Age)
+formatted_Str1 = "Name: %.5s, Age: %.3d" % (F_Name, Age)
 print(formatted_Str1)
 
 # (%s) is used for string substitution.
